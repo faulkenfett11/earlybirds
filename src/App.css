@@ -46,9 +46,17 @@ a {
     margin-left: 25px;
     margin-right: 25px;
   }
+
+  footer {
+    position: relative;
+  }
 }
 
 @media (max-width: 400px) {
+  .App {
+    font-size: .8em
+  }
+
   a {
     margin-left: 25px;
     margin-right: 25px;
