@@ -1,0 +1,5 @@
+[[redirects]]
+from = "https://ebcb.netlify.com"
+to = "https://earlybirdscoffee.com"  
+status = 200   
+force = true

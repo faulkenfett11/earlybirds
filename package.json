@@ -2,7 +2,6 @@
   "name": "earlybirds",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://www.earlybirdscoffee.com",
   "dependencies": {
     "braces": "^2.3.2",
     "react": "^16.8.2",
