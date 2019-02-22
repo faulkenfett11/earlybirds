@@ -18,13 +18,25 @@ class App extends Component {
           While our website is under construction, check out our social media:
         </h5>
         <div className="socialMedia">
-          <a href="https://www.facebook.com/earlybirdsatx/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.facebook.com/earlybirdsatx/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaFacebookSquare />
           </a>
-          <a href="https://www.twitter.com/earlybirdsatx/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.twitter.com/earlybirdsatx/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaTwitterSquare />
           </a>
-          <a href="https://www.instagram.com/earlybirdsatx/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.instagram.com/earlybirdsatx/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaInstagram />
           </a>
         </div>
