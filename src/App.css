@@ -315,7 +315,7 @@ footer {
     -webkit-user-select: none;
     user-select: none;
   }
-  
+
   .menu-icon input[type="checkbox"] {
     cursor: pointer;
     position: absolute;
@@ -324,7 +324,7 @@ footer {
     right: 20px;
     display: none;
   }
-  
+
   .menu-icon label {
     display: inline-block;
     cursor: pointer;
@@ -335,7 +335,7 @@ footer {
     right: 20px;
     z-index: 999;
   }
-  
+
   .icon,
   .icon:before,
   .icon:after {
@@ -347,46 +347,46 @@ footer {
     transform: rotate(90deg);
     cursor: pointer;
   }
-  
+
   .icon {
     top: 24px;
     right: 41px;
   }
-  
+
   .icon:before,
   .icon:after {
     content: "";
   }
-  
+
   .icon:before {
     right: 10px;
     transition: right 0.3s ease-out, width 0.3s ease-out;
   }
-  
+
   .icon:after {
     left: 10px;
     transition: left 0.3s ease-out, width 0.3s ease-out;
   }
-  
+
   .menu-icon input[type="checkbox"]:checked ~ .icon:before {
     right: -8px;
     width: 22px;
     transform: rotate(-45deg);
   }
-  
+
   .menu-icon input[type="checkbox"]:checked ~ .icon:after {
     left: -8px;
     width: 22px;
     transform: rotate(45deg);
   }
-  
+
   .menu {
     display: flex;
     flex-direction: column;
     align-items: center;
     position: absolute;
     line-height: 300%;
-    right: 150px;
+    right: 165px;
     top: 30px;
     padding: 0;
     z-index: 100;
@@ -394,7 +394,7 @@ footer {
     transform: translate(0, -130%);
     transition: transform 1s cubic-bezier(0.77, 0.2, 0.05, 1);
   }
-  
+
   .menu a {
     border: none;
     text-decoration: none;
@@ -404,13 +404,13 @@ footer {
     font-size: 1.5em;
     color: white;
   }
-  
+
   .NavBarContainer input:checked ~ ul {
     transform: none;
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 475px) {
   .ebcbLogo {
     width: 80px;
     margin: 15px auto;
@@ -427,7 +427,7 @@ footer {
     -webkit-user-select: none;
     user-select: none;
   }
-  
+
   .menu-icon input[type="checkbox"] {
     cursor: pointer;
     position: absolute;
@@ -436,7 +436,7 @@ footer {
     right: 20px;
     display: none;
   }
-  
+
   .menu-icon label {
     display: inline-block;
     cursor: pointer;
@@ -447,7 +447,7 @@ footer {
     right: 20px;
     z-index: 999;
   }
-  
+
   .icon,
   .icon:before,
   .icon:after {
@@ -459,46 +459,49 @@ footer {
     transform: rotate(90deg);
     cursor: pointer;
   }
-  
+
   .icon {
     top: 24px;
     right: 41px;
   }
-  
+
   .icon:before,
   .icon:after {
     content: "";
   }
-  
+
   .icon:before {
     right: 10px;
     transition: right 0.3s ease-out, width 0.3s ease-out;
   }
-  
+
   .icon:after {
     left: 10px;
     transition: left 0.3s ease-out, width 0.3s ease-out;
   }
-  
+
   .menu-icon input[type="checkbox"]:checked ~ .icon:before {
     right: -8px;
     width: 22px;
     transform: rotate(-45deg);
   }
-  
+
   .menu-icon input[type="checkbox"]:checked ~ .icon:after {
     left: -8px;
     width: 22px;
     transform: rotate(45deg);
   }
-  
+
   .menu {
     display: flex;
     flex-direction: column;
     align-items: center;
     position: absolute;
     line-height: 300%;
-    right: 150px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
     top: 30px;
     padding: 0;
     z-index: 100;
@@ -506,7 +509,7 @@ footer {
     transform: translate(0, -130%);
     transition: transform 1s cubic-bezier(0.77, 0.2, 0.05, 1);
   }
-  
+
   .menu a {
     border: none;
     text-decoration: none;
@@ -516,7 +519,7 @@ footer {
     font-size: 1.5em;
     color: white;
   }
-  
+
   .NavBarContainer input:checked ~ ul {
     transform: none;
   }
