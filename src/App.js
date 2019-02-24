@@ -22,16 +22,16 @@ class App extends Component {
               <div className="icon" />
               <ul className="menu">
                 <a className="h3nav" href="#about">
-                  About Us
+                  ABOUT US
                 </a>
                 <a className="h3nav" href="#coffee">
-                  Our Coffee
+                  OUR COFFEE
                 </a>
                 <a className="h3nav" href="#schedule">
-                  Schedule
+                  SCHEDULE
                 </a>
                 <a className="h3nav" href="#contact">
-                  Contact Us
+                  CONTACT US
                 </a>
               </ul>
             </div>

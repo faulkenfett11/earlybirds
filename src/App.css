@@ -113,7 +113,9 @@ body {
   text-decoration: none;
   cursor: pointer;
   background: transparent;
-  font-family: "Saira", sans-serif;
+  font-family: dunbar-tall, sans-serif;
+  font-weight: 500;
+  font-style: normal;
   font-size: 1.5em;
   color: white;
   transition: color 1s ease;
@@ -153,6 +155,10 @@ h1 {
 
 .titlePage2 {
   margin: 0;
+  font-family: dunbar-tall, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 10px;
 }
 
 footer {
@@ -399,7 +405,9 @@ footer {
     text-decoration: none;
     cursor: pointer;
     background: transparent;
-    font-family: "Saira", sans-serif;
+    font-family: dunbar-tall, sans-serif;
+    font-weight: 500;
+    font-style: normal;
     font-size: 1.5em;
     color: white;
   }
@@ -447,7 +455,9 @@ footer {
     text-decoration: none;
     cursor: pointer;
     background: transparent;
-    font-family: "Saira", sans-serif;
+    font-family: dunbar-tall, sans-serif;
+    font-weight: 500;
+    font-style: normal;
     font-size: 1.5em;
     color: white;
   }
@@ -554,7 +564,9 @@ footer {
     text-decoration: none;
     cursor: pointer;
     background: transparent;
-    font-family: "Saira", sans-serif;
+    font-family: dunbar-tall, sans-serif;
+    font-weight: 500;
+    font-style: normal;
     font-size: 1.5em;
     color: white;
   }
@@ -668,7 +680,9 @@ footer {
     text-decoration: none;
     cursor: pointer;
     background: transparent;
-    font-family: "Saira", sans-serif;
+    font-family: dunbar-tall, sans-serif;
+    font-weight: 500;
+    font-style: normal;
     font-size: 1.5em;
     color: white;
   }
