@@ -1,23 +1,63 @@
 import React, { Component } from "react";
 import "./App.css";
-import logo from "./pictures/Early Birds2.png";
+import ebcbLogo from "./pictures/EBCBshirtLogo.png";
+import logo from "./pictures/Tshirtlogonoatx.png";
 import {
   FaTrademark,
   FaFacebookSquare,
   FaTwitterSquare,
-  FaInstagram
+  FaInstagram,
+  FaAngleDoubleDown
 } from "react-icons/fa";
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <h1 className="comingSoon">Coming Soon to Austin!</h1>
-        <img src={logo} className="earlyBirdsLogo" alt="earlyBirdsLogo" />
-        <h5 className="underConstruction">
-          While our website is under construction, check out our social media:
-        </h5>
-        <div className="socialMedia">
+      <div className="main">
+        <div className="App">
+          <div className="NavBarContainer">
+            <div className="menu-icon">
+              <label for="toggle" />
+              <input id="toggle" type="checkbox" />
+              <div className="icon" />
+              <ul className="menu">
+                <a className="h3nav" href="#about">
+                  About Us
+                </a>
+                <a className="h3nav" href="#coffee">
+                  Our Coffee
+                </a>
+                <a className="h3nav" href="#schedule">
+                  Schedule
+                </a>
+                <a className="h3nav" href="#contact">
+                  Contact Us
+                </a>
+              </ul>
+            </div>
+          </div>
+          <div className="ebcbatx">
+            <img src={ebcbLogo} className="ebcbLogo" alt="ebcbLogo" />
+          </div>
+          <div>
+            <img src={logo} className="earlyBirdsLogo" alt="earlyBirdsLogo" />
+          </div>
+          <div className="pageDown">
+            <FaAngleDoubleDown />
+          </div>
+        </div>
+        <div className="pageTwo" id="about">
+          <p className="titlePage2">Austin's Best Cold Brew and Nitro Cold Brew Coffee</p>
+        </div>
+      </div>
+    );
+  }
+}
+
+export default App;
+
+{
+  /* <div className="socialMedia">
           <a
             href="https://www.facebook.com/earlybirdsatx/"
             target="_blank"
@@ -39,15 +79,13 @@ class App extends Component {
           >
             <FaInstagram />
           </a>
-        </div>
-        <footer>
+        </div> */
+}
+
+{
+  /* <footer>
           <h5>
             2019 Early Birds Coffee Bikes <FaTrademark />
           </h5>
-        </footer>
-      </div>
-    );
-  }
+        </footer> */
 }
-
-export default App;
