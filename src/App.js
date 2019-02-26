@@ -47,45 +47,45 @@ class App extends Component {
           </div>
         </div>
         <div className="pageTwo" id="about">
-          <p className="titlePage2">Austin's Best Cold Brew and Nitro Cold Brew Coffee</p>
+          <p className="titlePage2">
+            Austin's Best Cold Brew and Nitro Cold Brew Coffee
+          </p>
+          <p className="textPage2">
+            Page under construction! We'll be ready soon, so come back and check
+            us out! In the meantime, check out our social media:
+          </p>
+          <div className="socialMedia">
+            <a
+              href="https://www.facebook.com/earlybirdsatx/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaFacebookSquare />
+            </a>
+            <a
+              href="https://www.twitter.com/earlybirdsatx/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaTwitterSquare />
+            </a>
+            <a
+              href="https://www.instagram.com/earlybirdsatx/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaInstagram />
+            </a>
+          </div>
         </div>
+        <footer>
+          <h5>
+            2019 Early Birds Coffee Bikes <FaTrademark />
+          </h5>
+        </footer>
       </div>
     );
   }
 }
 
 export default App;
-
-{
-  /* <div className="socialMedia">
-          <a
-            href="https://www.facebook.com/earlybirdsatx/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaFacebookSquare />
-          </a>
-          <a
-            href="https://www.twitter.com/earlybirdsatx/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaTwitterSquare />
-          </a>
-          <a
-            href="https://www.instagram.com/earlybirdsatx/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FaInstagram />
-          </a>
-        </div> */
-}
-
-{
-  /* <footer>
-          <h5>
-            2019 Early Birds Coffee Bikes <FaTrademark />
-          </h5>
-        </footer> */
-}
