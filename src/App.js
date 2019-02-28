@@ -45,7 +45,9 @@ class App extends Component {
             <img src={logo} className="earlyBirdsLogo" alt="earlyBirdsLogo" />
           </div>
           <div className="pageDown">
-            <FaAngleDoubleDown />
+            <a href="#about">
+              <FaAngleDoubleDown />
+            </a>
           </div>
         </div>
         <div className="pageTwo" id="about">
@@ -92,6 +94,7 @@ class App extends Component {
               <FaEnvelope className="emailIcon" />
               &nbsp;&nbsp;&nbsp;E-Mail Us
             </a>
+            <h5>justin.faulkenberry@earlybirdscoffee.com</h5>
           </div>
         </div>
         <footer>
