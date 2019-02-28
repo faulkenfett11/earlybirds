@@ -171,7 +171,7 @@ footer h5 {
   font-weight: 500;
   font-style: normal;
   letter-spacing: 10px;
-  margin-top: 15px
+  margin: 15px 0;
 }
 
 .twoHr {
@@ -182,11 +182,23 @@ footer h5 {
   font-family: dunbar-low, sans-serif;
 }
 
+.email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: .5em;
+  font-family: dunbar-text, sans-serif;
+  padding-bottom: 125px;
+}
+
+.emailIcon {
+  color: #0072ff;
+}
+
 .socialMedia {
   width: 10%;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 125px;
   display: flex;
   justify-content: space-evenly;
 }
@@ -485,6 +497,22 @@ footer h5 {
   .texasBirds {
     width: 60%;
     margin: 0 auto;
+  }
+
+  .email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .3em;
+    font-family: dunbar-text, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+  }
+
+  .emailIcon {
+    width: 10%;
+    font-size: 3em; 
   }
 
   .socialMedia {

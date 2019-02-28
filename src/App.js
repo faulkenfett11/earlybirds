@@ -8,7 +8,8 @@ import {
   FaFacebookSquare,
   FaTwitterSquare,
   FaInstagram,
-  FaAngleDoubleDown
+  FaAngleDoubleDown,
+  FaEnvelope
 } from "react-icons/fa";
 
 class App extends Component {
@@ -57,6 +58,7 @@ class App extends Component {
             Page under construction! We'll be ready soon, so come back and check
             us out! In the meantime, check out our social media:
           </p>
+
           <div className="socialMedia">
             <a
               href="https://www.facebook.com/earlybirdsatx/"
@@ -78,6 +80,17 @@ class App extends Component {
               rel="noopener noreferrer"
             >
               <FaInstagram />
+            </a>
+          </div>
+
+          <div className="ebcbemail">
+            <a
+              className="email"
+              href="mailto:justin.faulkenberry@earlybirdscoffee.com"
+              target="_top"
+            >
+              <FaEnvelope className="emailIcon" />
+              &nbsp;&nbsp;&nbsp;E-Mail Us
             </a>
           </div>
         </div>
