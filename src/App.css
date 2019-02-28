@@ -186,7 +186,7 @@ footer h5 {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: .5em;
+  font-size: 0.5em;
   font-family: dunbar-text, sans-serif;
   padding-bottom: 125px;
 }
@@ -503,7 +503,7 @@ footer h5 {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: .3em;
+    font-size: 0.3em;
     font-family: dunbar-text, sans-serif;
     font-weight: 600;
     text-decoration: none;
@@ -512,7 +512,7 @@ footer h5 {
 
   .emailIcon {
     width: 10%;
-    font-size: 3em; 
+    font-size: 3em;
   }
 
   .socialMedia {
@@ -592,11 +592,27 @@ footer h5 {
   .textPage2 {
     font-size: 0.5em;
   }
+
+  .ebcbemail {
+    padding: 10px 0 0 0;
+  }
+
+  .texasBirds {
+    width: 15%;
+  }
+
+  .email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: dunbar-text, sans-serif;
+    padding-bottom: 0;
+  }
 }
 
 /* iPhone 5/SE/6/7/8/plus Landscape mode */
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 736px) and (orientation: landscape) {
+@media only screen and (min-device-width: 360px) and (max-device-width: 736px) and (orientation: landscape) {
   .ebcbLogo {
     width: 80px;
     margin: 15px auto;
@@ -719,6 +735,23 @@ footer h5 {
     width: 60%;
     display: flex;
     justify-content: space-around;
+  }
+
+  .ebcbemail {
+    padding: 10px 0 10px 0;
+  }
+
+  .texasBirds {
+    width: 20%;
+    margin: 0 auto;
+  }
+
+  .email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: dunbar-text, sans-serif;
+    padding-bottom: 0;
   }
 
   .textPage2 {
