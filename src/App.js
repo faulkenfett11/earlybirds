@@ -18,7 +18,7 @@ class App extends Component {
         <div className="App">
           <div className="NavBarContainer">
             <div className="menu-icon">
-              <label for="toggle" />
+              <label htmlFor="toggle" />
               <input id="toggle" type="checkbox" />
               <div className="icon" />
               <ul className="menu">

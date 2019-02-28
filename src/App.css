@@ -474,12 +474,17 @@ footer h5 {
   }
 
   .titlePage2 {
-    font-size: 0.3em;
+    font-size: 0.6em;
     margin: 15px 0 0 0;
-    padding: 0 15px;
+    padding: 0 50px;
     font-family: dunbar-tall, sans-serif;
     font-weight: 500;
     letter-spacing: 0em;
+  }
+
+  .texasBirds {
+    width: 60%;
+    margin: 0 auto;
   }
 
   .socialMedia {
