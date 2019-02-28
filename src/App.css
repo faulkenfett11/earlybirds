@@ -98,7 +98,7 @@ body {
   flex-direction: column;
   align-items: flex-end;
   position: absolute;
-  line-height: 300%;
+  line-height: 400%;
   right: 100px;
   top: 150px;
   padding: 0;
@@ -150,6 +150,19 @@ h1 {
 .pageTwo {
   font-size: 4em;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.texasBirds {
+  width: 25%;
+  margin: 0 auto;
+}
+
+footer h5 {
+  margin: 0;
+  padding: 0;
 }
 
 .titlePage2 {
@@ -158,12 +171,22 @@ h1 {
   font-weight: 500;
   font-style: normal;
   letter-spacing: 10px;
+  margin-top: 15px
+}
+
+.twoHr {
+  display: none;
+}
+
+.textPage2 {
+  font-family: dunbar-low, sans-serif;
 }
 
 .socialMedia {
   width: 10%;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 125px;
   display: flex;
   justify-content: space-evenly;
 }
@@ -311,7 +334,9 @@ h1 {
   }
 }
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+/* iPhone 5/SE/6/7/8/plus/X */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 812px) {
   .App {
     background-color: black;
     font-family: "Roboto", sans-serif;
@@ -406,7 +431,8 @@ h1 {
     align-items: center;
     position: absolute;
     line-height: 300%;
-    right: 165px;
+    left: 0;
+    right: 0;
     top: 30px;
     padding: 0;
     z-index: 100;
@@ -430,7 +456,46 @@ h1 {
   .NavBarContainer input:checked ~ ul {
     transform: none;
   }
+
+  .pageTwo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .twoHr {
+    display: block;
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #000000, #f0f0f0);
+    background-image: -moz-linear-gradient(left, #f0f0f0, #000000, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #f0f0f0, #000000, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, #000000, #f0f0f0);
+  }
+
+  .titlePage2 {
+    font-size: 0.3em;
+    margin: 15px 0 0 0;
+    padding: 0 15px;
+    font-family: dunbar-tall, sans-serif;
+    font-weight: 500;
+    letter-spacing: 0em;
+  }
+
+  .socialMedia {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .textPage2 {
+    font-size: 0.5em;
+    font-family: dunbar-low, sans-serif;
+    padding: 0 15px;
+  }
 }
+
+/* iPhoneX landscape mode */
 
 @media only screen and (min-device-width: 736px) and (max-device-width: 812px) and (orientation: landscape) {
   .earlyBirdsLogo {
@@ -495,6 +560,8 @@ h1 {
     font-size: 0.5em;
   }
 }
+
+/* iPhone 5/SE/6/7/8/plus Landscape mode */
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 736px) and (orientation: landscape) {
   .ebcbLogo {
@@ -610,7 +677,6 @@ h1 {
 
   .titlePage2 {
     font-size: 0.5em;
-    padding: 0 110px;
     margin: 15px 0 0 0;
     font-family: dunbar-tall, sans-serif;
     font-weight: 700;

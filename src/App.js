@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 import ebcbLogo from "./pictures/EBCBshirtLogo.png";
 import logo from "./pictures/Tshirtlogonoatx.png";
+import texas from "./pictures/texaswithbirds.png";
 import {
   FaTrademark,
   FaFacebookSquare,
@@ -49,7 +50,9 @@ class App extends Component {
         <div className="pageTwo" id="about">
           <p className="titlePage2">
             Austin's Best Cold Brew and Nitro Cold Brew Coffee
+            <hr className="twoHr" />
           </p>
+          <img src={texas} className="texasBirds" alt="texasEbcb" />
           <p className="textPage2">
             Page under construction! We'll be ready soon, so come back and check
             us out! In the meantime, check out our social media:
