@@ -19,7 +19,7 @@ body {
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.1em;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .NavBarContainer {
@@ -149,7 +149,7 @@ h1 {
 
 .pageTwo {
   font-size: 4em;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -189,6 +189,8 @@ footer h5 {
   font-size: 0.5em;
   font-family: dunbar-text, sans-serif;
   padding-bottom: 125px;
+  text-decoration: none;
+  color: black;
 }
 
 .emailIcon {
@@ -354,7 +356,7 @@ footer h5 {
     font-family: "Roboto", sans-serif;
     letter-spacing: 0.1em;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
   }
 
   .ebcbLogo {
