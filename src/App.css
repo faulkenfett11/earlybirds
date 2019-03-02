@@ -641,7 +641,7 @@ footer h5 {
   }
 
   .earlyBirdsLogo {
-    width: 80%;
+    width: 80% !important;
     margin-top: 0 !important;
   }
 
@@ -781,7 +781,7 @@ footer h5 {
   }
 }
 
-@media (max-width: 760px) {
+@media (max-width: 700px) {
   .App {
     background-color: black;
     font-family: "Roboto", sans-serif;
